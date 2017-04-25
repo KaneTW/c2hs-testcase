@@ -1,0 +1,19 @@
+name: b
+version: 0.0.0
+synopsis: Test case B
+author: David Kraeutmann <kane@kane.cx>
+build-tools: 
+  - c2hs
+
+default-extensions:
+  - ForeignFunctionInterface
+dependencies:
+  - base >= 4.9 && < 5
+  - a
+
+library:
+  source-dirs: src
+
+  exposed-modules:
+    - Bar
+

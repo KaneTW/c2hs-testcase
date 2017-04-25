@@ -1,0 +1,4 @@
+```
+cd b
+stack build
+```

@@ -1,0 +1,24 @@
+-- This file has been generated from package.yaml by hpack version 0.17.0.
+--
+-- see: https://github.com/sol/hpack
+
+name:           a
+version:        0.0.0
+synopsis:       Test case A
+author:         David Kraeutmann <kane@kane.cx>
+build-type:     Simple
+cabal-version:  >= 1.10
+
+library
+  hs-source-dirs:
+      src
+  default-extensions: ForeignFunctionInterface
+  build-depends:
+      base >= 4.9 && < 5
+  build-tools:
+      c2hs
+  exposed-modules:
+      Foo
+  other-modules:
+      Paths_a
+  default-language: Haskell2010
